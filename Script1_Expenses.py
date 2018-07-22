@@ -2,9 +2,10 @@
 ##Date: February 1, 2016
 ### 1st Exercise
 
-x = input ("Enter your Grocery bill:  ")
-y = input ("Enter your phone bill:  ")
+groceryBill = input ("Enter your Grocery bill:  ")
+phoneBill = input ("Enter your phone bill:  ")
+electricBill = input ("Enter your electric bill:  ")
 
-c = x + y
+totalBill = groceryBill + phoneBill + electricBill
 
-print "Your total exoenses are: " + str(c)
+print "Your total exoenses are: " + str(totalBill)
